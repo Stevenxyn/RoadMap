@@ -18,4 +18,12 @@
 - Number: integers, floats, etc.
 - Strings: Una cadena de caracteres nombres, palabras, etc.
 - Symbol: Es un valor unico que no puede ser igual a ningun otro valor
-        
+
+## Arreglos
+* nombreArray.forEach( ( elemento, indice, arr ) => {
+  console.log( {elemento, indice , arr} );
+}); De esta forma recorremos el array y nos muestra tambien el indice del mismo
+* todos los metodos que se usen ejemplo pop(), push(), unshift(), etc. devuelven algo ya sea longitud lo que se haya eliminado o agregado.
+
+
+
