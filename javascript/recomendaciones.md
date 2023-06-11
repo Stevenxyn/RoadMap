@@ -18,4 +18,4 @@
 - Number: integers, floats, etc.
 - Strings: Una cadena de caracteres nombres, palabras, etc.
 - Symbol: Es un valor unico que no puede ser igual a ningun otro valor
-
+        
