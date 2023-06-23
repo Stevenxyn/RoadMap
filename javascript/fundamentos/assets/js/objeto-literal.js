@@ -12,17 +12,17 @@ const personaje = {
     'Harith'
   ],
   skinsPrecios: {
-    campusYoung: 120,
-    punkPrinces: 220,
-    skylark: 1000,
-    royalCalavary: 320,
-    lifeGuard: 620,
-    lightbornRanger: 1200,
-    christmasCarnival: 1200,
-    imperialWarrior: 350,
-    bladeOfKibou: 2520,
-  },
-}
+    campusYoung: 112,
+    punkPrinces: 213,
+    skylark: 993,
+    royalCalavary: 312,
+    lifeGuard: 612,
+    lightbornRanger: 1194,
+    christmasCarnival: 1194,
+    imperialWarrior: 345,
+    bladeOfKibou: 2516
+}}
+
 
 console.log( 'Tiene un total de ', personaje.cantidadSkins ,' skins.' );
 console.log( 'Se llama ', personaje.nombre );
@@ -32,8 +32,7 @@ console.log( 'Su hermano es: ', personaje.lightbornMembers[0] );
 console.log( 'Tiene un total de ', personaje.lightbornMembers.length, ' amigos.' );
 console.log( 'Tiene un total de ', Object.keys(personaje.skinsPrecios).length, ' skins' );
 console.log( 'Cuenta con estas skins ', personaje.skinsPrecios );
-
-console.log( 'Ultimo amigo que conocio es ', 
+console.log('Ultimo amigo que conocio es ',
 personaje.lightbornMembers[ personaje.lightbornMembers.length - 1 ]);
 
 const x = 'vivo';
